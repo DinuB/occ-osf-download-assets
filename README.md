@@ -8,10 +8,10 @@
 
 **install:**
 - clone the repository
-- copy the python folder and occ-osf.sh into your project folder
+- copy the **python** folder into your project folder
 
 **options**
-- download assets: ```occ-osf.sh download```
-- refresh slots(if not run can give error when performing deploy): ```occ-osf.sh refresh-assets```
+- download assets: ```python3 python/osf.py download```
+- refresh slots(if not run can give error when performing deploy): ```python3 python/osf.py refresh-assets```
 
-**obs:** when you run the ```occ-osf.sh download``` command you will be asked if you want to refresh the assets, if you answer **y** you will not need to run the ```occ-osf.sh refresh-assets``` command.
+**obs:** when you run the ```python3 python/osf.py download``` command you will be asked if you want to refresh the assets, if you answer **y** you will not need to run the ```python3 python/osf.py refresh-assets``` command.
